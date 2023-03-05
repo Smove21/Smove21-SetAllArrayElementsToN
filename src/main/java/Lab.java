@@ -17,12 +17,14 @@ public class Lab {
      * After completing the problem, I recommend using your IDE's debugger to walk through the loop
      * goes through to help you visualize the values changing, as understanding this process is critical for all future
      * coding challenges.
-     *
+     * in java 
      * @param arr an array.
      * @param n number that you will switch all numbers of arr to.
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
     public void set(int[] arr, int n){
-
+        for(int i = 0; i < arr.length; i++){
+        arr[i] = n;
+                 }
     }
 }
